@@ -1,6 +1,6 @@
 import {Product} from "../models/Product";
 
-export function updatePrice(product: Product) {
+export function updatePrice(product: Product) : Product{
 
     if (product.name == 'Full Coverage') {
 
