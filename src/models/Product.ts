@@ -27,3 +27,4 @@ export class Product {
         this._price = value;
     }
 }
+
