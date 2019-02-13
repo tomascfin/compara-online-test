@@ -1,9 +1,10 @@
-import { expect } from 'chai';
+
+const expect = require('chai').expect;
 import * as CarInsuranceController from '../controllers/CarInsurance';
 import {CarInsurance} from "../models/CarInsurance";
-import {Product} from "../models/Product";
+import {Product} from "../models/Product"
 
-describe("Co Test", function() {
+describe("Co Test", () => {
 
     it("should foo", function() {
         const carInsurance = new CarInsurance([ new Product("foo", 0, 0) ]);
